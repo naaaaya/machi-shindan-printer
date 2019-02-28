@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MachiShindanWeb</title>
+    <title>まち診断</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= favicon_link_tag('favicon.png') %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+      <body>
+        <header>
+          <div class="title"><h1>まち診断<%= image_tag('city-icon.svg', :size => "64x64", :display => "inline")%></h1>
+          </div>
+          <div class='description'><p>あなたにおすすめのまちを診断します<p></div>
+        </header>
+
+        <div class="main-contents">
+          <div class="modal">
+            <%= yield %>
+          </div>
+        </div>
+    </body>
 </html>

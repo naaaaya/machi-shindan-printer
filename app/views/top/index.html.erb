@@ -1,0 +1,9 @@
+<p class="message" id="q_text">なにもない休日。ランチを食べるなら？</p>
+<div class="options">
+  <button class="btn" id='yes-btn' onclick="clickedYes()">行ったことのない店</button>
+  <button class="btn" id='no-btn' onclick="clickedNo()">よく行くお店</button>
+</div>
+<div id='print_data'>
+  <%= button_to "プリントする", result_print_path, class: 'print-btn', id: 'print-btn', style: 'display: none' %>
+    <!-- <input type="submit" name="btn" value="ボタン" onclick="funcBtn();" /> -->
+</div>

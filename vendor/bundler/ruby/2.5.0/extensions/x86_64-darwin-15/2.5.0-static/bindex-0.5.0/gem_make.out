@@ -1,0 +1,15 @@
+current directory: /Users/S-Group/projects/baum/machi-shindan-web/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/S-Group/.rbenv/versions/2.5.1/bin/ruby -I /Users/S-Group/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190228-41361-vj065r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/S-Group/projects/baum/machi-shindan-web/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/S-Group/projects/baum/machi-shindan-web/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/S-Group/projects/baum/machi-shindan-web/vendor/bundler/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190228-41361-1xig3ab/bindex
